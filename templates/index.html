@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>画像ダウンローダー</title>
+	<link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+<div id="wrap">
+	<h1>画像ダウンローダー</h1>
+	<form method="POST">
+	<input type="text" name="img" placeholder="ダウンロードしたい画像を入力: 例) 犬"><br>
+	<input type="text" name="num" placeholder="ダウンロードしたい枚数を入力: 例) 5"><br>
+	<input type="submit" value="ダウンロードする">
+	</form>
+	<a href="{{ folder_name }}.zip">{{ file_name }}</a>
+	<p class="m-top">
+	created by <a href="https://twitter.com/tankazunori0914" target="_blank">kazu</a></p>
+</div>
+</body>
+</html>

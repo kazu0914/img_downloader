@@ -1,0 +1,30 @@
+h1,h2,h3,p {
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+#wrap {
+	padding: 0px;
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+input {
+	padding-left: 30px;
+	height: 30px;
+	width: 250px;
+	margin: 10px;
+}
+
+input[type=submit] {
+	padding: 0.5em 2em;
+    -webkit-appearance: unset;
+    width: fit-content;
+}
+input[type=submit]:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.m-top {
+	margin-top: 20px;
+}
